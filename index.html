@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikita Serednitsky CV</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<main class="rs-main">
+    <header class="rs-header">
+        <img class="rs-photo" src="photo.jpg" alt="Nikita Serednitsky">
+        <h1>Nikita Serednitsky</h1>
+    </header>
+    <section class="rs-section">
+        <h2>Contact info</h2>
+        <ul>
+            <li class="rs-list"><a href="https://github.com/serednitsky">Github</a></li>
+            <li class="rs-list"><a href="https://vk.com/serednitsky.nick">VK</a></li>
+            <li class="rs-list"><a href="https://www.facebook.com/profile.php?id=100005763780414">Facebook</a></li>
+            <li class="rs-list"><a href="https://join.skype.com/invite/qbJtLEBps5de">Skype</a></li>
+        </ul>
+    </section>
+    <section class="rs-section">
+        <h2>Summary</h2>
+        <p>I want to become a Frontend developer. I like to work in this area since my student projects.
+            My level of English is very low, but I try to read documentation and tasks without translation.</p>
+    </section>
+    <section class="rs-section">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JS, C#, ASP.NET</p>
+    </section>
+    <section class="rs-section">
+        <h2>Code examples</h2>
+       <code>
+           <xmp>
+               const makeItFunny = (str, position) => {
+               let i = 0;
+               let result = '';
+
+               while (i < str.length) {
+                 if ((i + 1) % position === 0) {
+                 result = `${result}${str[i].toUpperCase()}`;
+                 } else {
+                   result = `${result}${str[i]}`;
+                   }
+
+               i++;
+               }
+
+               return result;
+               };
+
+           </xmp>
+       </code>
+    </section>
+    <section class="rs-section">
+        <h2>Experience</h2>
+        <p><a href="https://help.hrupkie.ru">https://help.hrupkie.ru</a> - took part in the layout of the main page,
+            tested the project for iOS.</p>
+    </section>
+    <section class="rs-section">
+        <h2>Education</h2>
+        <p><b>(2017-2021)</b> Moscow State University of Humanities and Economics. Faculty of Applied mathematics and informatics.</p>
+        <p><a href="https://ru.code-basics.com">https://ru.code-basics.com</a> - completed a course on HTML, CSS, JS;</p>
+    </section>
+    <section class="rs-section">
+        <h2>English</h2>
+        <p>A1</p>
+    </section>
+</main>
+</body>
+</html>
