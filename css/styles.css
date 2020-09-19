@@ -1,0 +1,45 @@
+h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.rs-main {
+    width: 1024px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+.rs-header {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: #1a4a25;
+    color: #46c977;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs-photo {
+    border-radius: 50%;
+    border: 2px solid #46c977;
+}
+
+.rs-section {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.rs-list {
+    padding-bottom: 5px;
+}
+
+xmp {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+}
