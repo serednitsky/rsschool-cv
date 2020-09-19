@@ -40,7 +40,6 @@ const makeItFunny = (str, position) => {
 
 Experience
 ---------
-* [https://ru.code-basics.com](https://ru.code-basics.com) - completed a course on HTML, CSS, JS;
 * [https://help.hrupkie.ru](https://help.hrupkie.ru) - took part in the
 layout of the main page, tested the project for iOS.
 
@@ -48,6 +47,8 @@ Education
 ---------
 **(2017-2021)** Moscow State University of Humanities and Economics. 
 Faculty of Applied mathematics and informatics.
+
+[https://ru.code-basics.com](https://ru.code-basics.com) - completed a course on HTML, CSS, JS;
 
 English
 ---------
